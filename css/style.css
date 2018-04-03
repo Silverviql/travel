@@ -1,0 +1,18 @@
+@import "bootstrap.css";
+
+.navbar-light .nav > li >a{color:#28374f;}
+.navbar-light .nav > li >a{color:#28374f;}
+.navbar-light .nav-link.active,
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #ffffff;
+    background-color: #563d7c;
+}
+.noborder{
+    margin: 0px ;
+    height: 2px;
+    background-color: #563d7c;
+}
+
+.text-muted {
+    color:#000000 !important;
+}
