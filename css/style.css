@@ -1,5 +1,6 @@
 @import "bootstrap.css";
 
+
 .navbar-light .nav > li >a{color:#28374f;}
 .navbar-light .nav > li >a{color:#28374f;}
 .navbar-light .nav-link.active,
@@ -18,8 +19,8 @@
 }
 
 .purple{
-    color: #563d7c ;
-}
+    color: #563d7c;
+  }
 
 .card-body-alter {
     flex: 1 1 auto;
