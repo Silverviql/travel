@@ -22,6 +22,13 @@
     color: #563d7c;
   }
 
+.not-active {
+    pointer-events: none;
+    cursor: default;
+    text-decoration:none;
+    color:#e4e4e4;
+}
+
 .card-body-alter {
     flex: 1 1 auto;
     padding: 0rem;
