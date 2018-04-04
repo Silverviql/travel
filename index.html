@@ -7,15 +7,52 @@
 
     <!-- Bootstrap CSS -->
      <link rel="stylesheet" href="css/style.css">
-    <title>Hello, world!</title>
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <title>Simply Travel!</title>
 </head>
 <body>
 
     <div class="container ">
-        <div>
-            <a class="navbar-brand" href="#">
-                <img src="css/travel.jpg" width="157" height="49" alt="logo">
-            </a>
+        <!--user icon in two different styles-->
+        <div class="row">
+            <div class="col-7">
+                <div>
+                    <a class="navbar-brand" href="#">
+                        <img src="css/travel.jpg" width="157" height="49" alt="logo">
+                    </a>
+                </div>
+            </div>
+            <div class="col-2 mt-3">
+                <div class="purple">
+                <p><i class="fas fa-phone"></i> 954214510322</p>
+                </div>
+            </div>
+            <div class="col-2 mt-3">
+                <div class="purple">
+                    <a href="#"> <i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                </div>
+            </div>
+            <div class="col-1 mt-3">
+                <div class="purple">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                               EN <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">RU</a>
+                                <a class="dropdown-item" href="#">UK</a>
+                                <a class="dropdown-item" href="#">US</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
         </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 0px ; ">
 
@@ -67,10 +104,12 @@
 </div>
     <div class="container ">
         <div class="row">
-            <div class="col-4">
+            <div class="col-4 mt-4">
                 <div class="card" >
                    <div class="card-body">
-                        <h5 class="card-title">Neticeleri filtirle </h5> <p>15 netise</p>
+                       <div class="purple">
+                           <h5 class="card-title">Neticeleri filtirle </h5> <p>15 netise</p>
+                       </div>
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                             <label class="form-check-label" for="defaultCheck1">
@@ -93,85 +132,131 @@
 
                        <h5 class="card-title">Otel xusiyyetleri</h5>
                        <div class="form-check">
-                           <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                           <label class="form-check-label" for="defaultCheck1">
+                           <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                           <label class="form-check-label" for="defaultCheck4">
                                Qapali hovuz
                            </label>
                        </div>
                        <div class="form-check">
-                           <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" >
-                           <label class="form-check-label" for="defaultCheck2">
+                           <input class="form-check-input" type="checkbox" value="" id="defaultCheck5" >
+                           <label class="form-check-label" for="defaultCheck5">
                                Aciq hovuz
                            </label>
                        </div>
                        <div class="form-check">
-                           <input class="form-check-input" type="checkbox" value="" id="defaultCheck3" >
-                           <label class="form-check-label" for="defaultCheck3">
+                           <input class="form-check-input" type="checkbox" value="" id="defaultCheck6" >
+                           <label class="form-check-label" for="defaultCheck6">
                                Wi-fi
                            </label>
                        </div>
                        <div class="form-check">
-                           <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                           <label class="form-check-label" for="defaultCheck1">
+                           <input class="form-check-input" type="checkbox" value="" id="defaultCheck7">
+                           <label class="form-check-label" for="defaultCheck7">
                                Tv
                            </label>
                        </div>
                        <div class="form-check">
-                           <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                           <label class="form-check-label" for="defaultCheck1">
+                           <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
+                           <label class="form-check-label" for="defaultCheck8">
                                Animation team
                            </label>
                        </div>
                        <div class="form-check">
-                           <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                           <label class="form-check-label" for="defaultCheck1">
+                           <input class="form-check-input" type="checkbox" value="" id="defaultCheck9">
+                           <label class="form-check-label" for="defaultCheck9">
                                Kids club
                            </label>
                        </div>
                        <div class="form-check">
-                           <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                           <label class="form-check-label" for="defaultCheck1">
+                           <input class="form-check-input" type="checkbox" value="" id="defaultCheck10">
+                           <label class="form-check-label" for="defaultCheck10">
                                Shuttle bus
                            </label>
                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-8">
+            <div class="col-8 mt-4" >
                 <div class="card mb-3" >
-                    <div class="card-body ">
-                        <img src="css/1.jpg" class="rounded float-left" alt="200x200" style="width: 200px; height: 200px;"  data-holder-rendered="true">
+                    <div class="card-body-alter" >
+                        <img src="css/1.jpg" class="rounded float-left" alt="200x200" style="width: 200px; height: 200px;"  data-holder-rendered="true" align="left"
+                             hspace="5">
                         <h5 class="card-title">Abseron Hotel</h5>
-                        <p class="card-text">Baky/ Azerbaycan
-                            Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Baky/ Azerbaycan</p>
+                        <div class="btn-group btn-group-xs" role="group" aria-label="First group">
+                            <button type="button" class="btn btn-default"><i class="fas fa-star"></i></button>
+                            <button type="button" class="btn btn-default"><i class="fas fa-star"></i></button>
+                            <button type="button" class="btn btn-default"><i class="fas fa-star"></i></button>
+                            <button type="button" class="btn btn-default"><i class="fas fa-star"></i></button>
+                            <button type="button" class="btn btn-default"><i class="fas fa-star"></i></button>
+                        </div>
+                        <p class="card-text"> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+
+
+
+                </div>
+                <div class="card mb-3" >
+                    <div class="card-body-alter">
+                        <img src="css/2.jpg" class="rounded float-left" alt="200x200" style="width: 200px; height: 200px;"  data-holder-rendered="true" align="left"
+                             hspace="5">
+                        <h5 class="card-title">Abseron Hotel</h5>
+                        <p class="card-text">Baky/ Azerbaycan</p>
+                        <div class="btn-group btn-group-xs" role="group" aria-label="First group">
+                            <button type="button" class="btn btn-default"><i class="fas fa-star"></i></button>
+                            <button type="button" class="btn btn-default"><i class="fas fa-star"></i></button>
+                            <button type="button" class="btn btn-default"><i class="fas fa-star"></i></button>
+                            <button type="button" class="btn btn-default"><i class="fas fa-star"></i></button>
+                            <button type="button" class="btn btn-default"><i class="fas fa-star"></i></button>
+                        </div>
+                        <p class="card-text"> Some quick example text to build on the card title and make up the bulk of the card's content.</p></div>
+                </div>
+                <div class="card mb-3" >
+                    <div class="card-body-alter">
+                        <img src="css/3.jpg" class="rounded float-left" alt="200x200" style="width: 200px; height: 200px;"  data-holder-rendered="true" align="left"
+                             hspace="5">
+                        <h5 class="card-title">Abseron Hotel</h5>
+                        <p class="card-text">Baky/ Azerbaycan</p>
+                        <div class="btn-group btn-group-xs" role="group" aria-label="First group">
+                            <button type="button" class="btn btn-default"><i class="fas fa-star"></i></button>
+                            <button type="button" class="btn btn-default"><i class="fas fa-star"></i></button>
+                            <button type="button" class="btn btn-default"><i class="fas fa-star"></i></button>
+                            <button type="button" class="btn btn-default"><i class="fas fa-star"></i></button>
+                            <button type="button" class="btn btn-default"><i class="fas fa-star"></i></button>
+                        </div>
+                        <p class="card-text"> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
                 <div class="card mb-3" >
-                    <div class="card-body">
-                        <img src="css/2.jpg" class="rounded float-left" alt="200x200" style="width: 200px; height: 200px;"  data-holder-rendered="true">
+                    <div class="card-body-alter">
+                        <img src="css/4.jpg" class="rounded float-left" alt="200x200" style="width: 200px; height: 200px;"  data-holder-rendered="true" align="left"
+                             hspace="5">
                         <h5 class="card-title">Abseron Hotel</h5>
-                        <p class="card-text">Baky/ Azerbaycan Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Baky/ Azerbaycan</p>
+                        <div class="btn-group btn-group-xs" role="group" aria-label="First group">
+                            <button type="button" class="btn btn-default"><i class="fas fa-star"></i></button>
+                            <button type="button" class="btn btn-default"><i class="fas fa-star"></i></button>
+                            <button type="button" class="btn btn-default"><i class="fas fa-star"></i></button>
+                            <button type="button" class="btn btn-default"><i class="fas fa-star"></i></button>
+                            <button type="button" class="btn btn-default"><i class="fas fa-star"></i></button>
+                        </div>
+                        <p class="card-text"> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
                 <div class="card mb-3" >
-                    <div class="card-body">
-                        <img src="css/3.jpg" class="rounded float-left" alt="200x200" style="width: 200px; height: 200px;"  data-holder-rendered="true">
+                    <div class="card-body-alter">
+                        <img src="css/5.jpg" class="rounded float-left" alt="200x200" style="width: 200px; height: 200px;"  data-holder-rendered="true" align="left"
+                             hspace="5">
                         <h5 class="card-title">Abseron Hotel</h5>
-                        <p class="card-text"> Baky/ Azerbaycan Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-                <div class="card mb-3" >
-                    <div class="card-body">
-                        <img src="css/4.jpg" class="rounded float-left" alt="200x200" style="width: 200px; height: 200px;"  data-holder-rendered="true">
-                        <h5 class="card-title">Abseron Hotel</h5>
-                        <p class="card-text">Baky/ Azerbaycan Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-                <div class="card mb-3" >
-                    <div class="card-body">
-                        <img src="css/5.jpg" class="rounded float-left" alt="200x200" style="width: 200px; height: 200px;"  data-holder-rendered="true">
-                        <h5 class="card-title">Abseron Hotel</h5>
-                        <p class="card-text">Baky/ Azerbaycan Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Baky/ Azerbaycan</p>
+                        <div class="btn-group btn-group-xs" role="group" aria-label="First group">
+                            <button type="button" class="btn btn-default"><i class="fas fa-star"></i></button>
+                            <button type="button" class="btn btn-default"><i class="fas fa-star"></i></button>
+                            <button type="button" class="btn btn-default"><i class="fas fa-star"></i></button>
+                            <button type="button" class="btn btn-default"><i class="fas fa-star"></i></button>
+                            <button type="button" class="btn btn-default"><i class="fas fa-star"></i></button>
+                        </div>
+                        <p class="card-text"> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
                 </div>
@@ -182,8 +267,15 @@
                 <div class="container ">
 
                     <div class="row">
-                        <div class="col-12 mb-5 mt-3">
+                        <div class="col-11 mb-5 mt-3">
                         <img src="css/travel.jpg" class="rounded float-left" alt="200x200" style="width: 157px; height: 49px;"  data-holder-rendered="true">
+                        </div>
+                        <div class="col-1 mt-4">
+                            <div class="purple">
+                                <a href="#"> <i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                            </div>
                         </div>
                                 <div class="col">
                                         <ul>
@@ -236,21 +328,25 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-6 col-md-4">
-                            <h6 class="card-title" style="text-align: left; " >Eleaqe vasiteleri</h6>
-                            <p class="card-text">+994 (12) 123 456 7890 <br> +994 (12) 123 456 7890 </p>
-
+                        <div class="col-6 col-md-4 mb-5">
+                            <h6 class="card-title" style="text-align: left;">Eleaqe vasiteleri</h6>
+                            <div class="purple">
+                                <p class="card-text"><i class="fas fa-phone"></i> +994 (12) 123 456 7890<br><i class="fas fa-mobile-alt"></i>   +994 (12) 123 456 7890</p>
+                            </div>
                         </div>
-                        <div class="col-6 col-md-4">
-                            <h6 class="card-title" style="text-align: left; " ></h6>
-                            <p class="card-text">Yasamal rayonu A.M Sarifzade kucesi <br>Baky/ Azerbaycan - Az1000 </p>
+                        <div class="col-6 col-md-4 mb-5 mt-3">
+                            <div class="purple">
+                                <h6 class="card-title" style="text-align: left;"></h6>
+                                <p class="card-text"><i class="fas fa-map-marker-alt"></i> Yasamal rayonu A.M Sarifzade kucesi <br>Baky/ Azerbaycan - Az1000 </p>
+                            </div>
                         </div>
-                        <div class="col-6 col-md-4">
+                        <div class="col-6 col-md-4 mb-5">
                             <h6 class="card-title" style="text-align: left; " >Is saarlari</h6>
-                            <p class="card-text">Hefte ici - saat 09:00 dan/20:00 dek <br> Senbe bazer - saar 10:00 dan/16:00 del</p>
+                            <div class="purple">
+                                <p class="card-text"><i class="far fa-clock"></i> Hefte ici - saat 09:00 dan/20:00 dek <br> Senbe bazer - saar 10:00 dan/16:00 del</p>
+                            </div>
                         </div>
                     </div>
-
                 </div>
             <div class="card-footer text-muted" style="background-color: #efefef" >
                 <div class="container ">

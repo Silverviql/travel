@@ -16,3 +16,12 @@
 .text-muted {
     color:#000000 !important;
 }
+
+.purple{
+    color: #563d7c ;
+}
+
+.card-body-alter {
+    flex: 1 1 auto;
+    padding: 0rem;
+}
